@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Abril Fatface', 'Work Sans', Merriweather;
+    src: url('../AbrilFatface-Regular.ttf') format('truetype');
+  }
+
 body {
     font-family: Helvetica;
 }
