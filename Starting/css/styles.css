@@ -1,0 +1,179 @@
+/* Universal Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(34, 38, 41);
+}
+
+/* Navegation Styles */
+.nav-me {
+    width: 100%;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    display: table;
+    background-color: rgba(71,75,79,0.5);
+}
+
+.me {
+    list-style: none;
+    margin: 0;
+    padding: 0 1.5%;
+    
+}
+
+.me li {
+    float:left
+}
+
+.me a {
+    text-decoration: none;
+    color: rgb(134,194,50);
+    line-height: 2;
+    padding: 3px 1em;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.me a:hover {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+/* Heater Styles */
+header {
+    position:relative;
+}
+
+.banner {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    letter-spacing: 1em;
+    line-height: 4em;
+}
+
+/* Main Styles */
+/* Color Section Style - Flexbox */
+#sec-color {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 25px auto;
+    height: 650px;
+    background-color: rgba(107,110,112,0.1);
+    align-content: flex-start;
+    border-radius: 5px;
+    overflow: auto;
+}
+    /*Flex Items*/
+.til-color {
+    flex: 0 1 200px;
+    height: 200px;
+    margin: 2% 0;
+    border: 1px solid rgb(97,137,47);
+    border-radius: 0 5px;
+}
+.til-color:nth-child(even){
+    border-radius: 5px 0;
+}
+
+/* Square Color*/
+.vdb {
+    background-color: rgb(34,38,41);
+}
+.vdgb05 {
+    background-color: rgba(71,75,79,0.5);
+}.vdgb01 {
+    background-color: rgba(107,110,112,0.1);
+}
+.dmg {
+    background-color: rgb(97,137,47);
+}
+.mg {
+    background-color: rgb(134,194,50);
+}
+.w {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.til-color div{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: small;
+    padding: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+.w div {
+    color: rgb(134,194,50);
+}
+
+
+/* Font Section Style */
+#sec-font {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 25px auto;
+    height: 650px;
+    background-color: rgba(107,110,112,0.1);
+    align-content: flex-start;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+/* Flex items */
+.square-font {
+    flex: 0 1 400px;
+    height: 300px;
+    display: flex;
+    margin: 2% 0;
+    flex-direction: column;
+    border: 1px solid rgb(134,194,50);
+    border-radius: 5px;
+
+}
+.square-font div {
+    text-align: center;
+    font-size: small;
+    color: rgb(255,255,255);
+    padding: 5px;
+}
+.rob {
+    font-family: 'Roboto', sans-serif;
+}
+.square-font h3 {
+    color: rgb(97,137,47);
+}
+
+.p-normal {
+    font-style: normal;
+}
+.p-italic {
+    font-style: italic;
+}
+.p-bold {
+    font-weight: bold;
+}
+.ubu{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Styles Section Style*/
+#sec-styles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: 25px auto;
+    height: 650px;
+    background-color: rgba(107,110,112,0.1);
+    align-content: flex-start;
+    border-radius: 5px;
+    overflow: auto;
+}

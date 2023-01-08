@@ -1,0 +1,66 @@
+/*Colors:
+
+NAME: Very Dark Blue
+HEX: #222629
+RGB: rgb(34,38,41)
+HSL: hsl(205.7,9.3%,14.7%)
+USE: Background Color
+
+NAME: Very dark grayish blue
+HEX: #474b4f
+RGBA: rgba(71,75,79,0.5)
+HSL: hsl(210,5.3%,29.4%)
+USE: Nav Background Color
+
+NAME: Very dark grayish blue
+HEX: #6b6e70
+RGBA: rgba(107,110,112,0.1);
+HSL: hsl(204,2.3%,42.9%)
+USE: Section Background Color
+
+NAME: Dark moderate green
+HEX: #61892f
+RGB: rgb(97,137,47)
+HSL: hsl(86.7,48.9%,36.1%)
+USE: Square Border Color
+
+NAME: Moderate green
+HEX: #86c232
+RGB: rgb(134,194,50)
+HSL: hsl(85,59%,47.8%)
+USE: Color Nav Name 
+
+NAME: White
+HEX: #ffffff
+RGB: rgb(255,255,255)
+HSL: hsl(0,0%,100%)
+USE: Text Color
+
+NAME: 
+HEX: 
+RGB: 
+HSL: 
+USE: 
+
+Fonts:
+
+Color info: 'Roboto', sans-serif;
+Roboto
+Regular 400
+Regular 400 Italic
+Black 900
+
+Ubuntu
+font-family: 'Ubuntu', sans-serif;
+Regular 400
+Regular 400 Italic
+Bold 700
+
+
+
+Styles:
+
+ */
+
+
+
